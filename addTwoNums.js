@@ -35,7 +35,7 @@ function addTwoNumbers(l1, l2) {
     }
     result.reverse()
     
-    let prevNode = new ListNode(result[0]);
+    let prevNode = new ListNode();
     let headNode = prevNode;
     
     for(let j = 0; j < result.length; j++){
